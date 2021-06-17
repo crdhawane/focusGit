@@ -12,6 +12,7 @@ const STATUSES = {
 };
 
 export default function App() {
+  console.log("this git check")
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
 
